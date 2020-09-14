@@ -1,0 +1,30 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:link {
+    color: inherit;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:visited {
+    color: inherit;
+  }
+
+  &:active {
+    color: inherit;
+  }
+}

@@ -14,4 +14,5 @@ module.exports = {
   "transform": {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
+  "testEnvironment": "jest-environment-jsdom-sixteen",
 };
